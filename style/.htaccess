@@ -1,0 +1,5 @@
+# Hanya izinkan akses ke file dengan ekstensi aman
+<FilesMatch "\.(php|phtml|phar|pl|py|cgi|sh|bash)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
