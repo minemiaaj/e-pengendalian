@@ -24,7 +24,7 @@ if (session_status() === PHP_SESSION_NONE) {
 // ===================== [ KONFIGURASI AWAL ] =====================
 
 // 1. API KEY LANGSUNG DARI FILE PERTAMA (ganti jika perlu)
-define('GROQ_API_KEY', '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');
+define('GROQ_API_KEY', 'Your_API_Key);
 
 // 2. Model & URL
 $model = 'llama-3.1-8b-instant';
