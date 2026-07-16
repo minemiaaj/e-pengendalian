@@ -1,0 +1,5 @@
+# Cegah akses langsung ke file include
+<FilesMatch "^(dashboard_analisis_functions\.php|dashboard_analisis_layout\.php|dashboard_analisis_script\.php)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
